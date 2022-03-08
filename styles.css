@@ -1,0 +1,33 @@
+body {
+    background-color: aquamarine;
+}
+.containerPoke {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 100px;
+    height: 150px;
+    border: 5px solid rgb(189, 137, 70);
+    background-color: azure;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 14px 7px 10px 1px rgb(95, 87, 87);
+    border-radius: 20px;
+}
+
+img {
+    width: 90%;
+    height: 90px;
+}
+
+h3 {
+    color: rgb(122, 52, 52);
+    text-align: center;
+    text-transform: capitalize;
+}
